@@ -444,7 +444,7 @@ async function searchbyLetter(letter) {
     let Fresponse = await response.json();
     $("#loading").fadeOut(100, function () {
         $(".lds-ripple").fadeOut(100, function () {
-            $("body").css({ overflow: "hidden" })
+            $("body").css({ overflow: "auto" })
 
         })
     });
@@ -498,7 +498,7 @@ async function getCategoryyy() {
     response = await response.json();
     $("#loading").fadeOut(100, function () {
         $(".lds-ripple").fadeOut(100, function () {
-            $("body").css({ overflow: "hidden" })
+            $("body").css({ overflow: "auto" });
 
         })
     });
@@ -541,7 +541,7 @@ async function getmyCategoryMeals(code) {
     response = await response.json();
     $("#loading").fadeOut(100, function () {
         $(".lds-ripple").fadeOut(100, function () {
-            $("body").css({ overflow: "hidden" })
+            $("body").css({ overflow: "auto" })
 
         })
     });
@@ -571,7 +571,7 @@ async function fetchArea() {
 
     $("#loading").fadeOut(100, function () {
         $(".lds-ripple").fadeOut(100, function () {
-            $("body").css({ overflow: "hidden" })
+            $("body").css({ overflow: "auto" })
 
         })
     });
@@ -634,7 +634,7 @@ async function fetchIngradients() {
 
     $("#loading").fadeOut(100, function () {
         $(".lds-ripple").fadeOut(100, function () {
-            $("body").css({ overflow: "hidden" })
+            $("body").css({ overflow: "auto" })
 
         })
     });
@@ -682,7 +682,7 @@ async function IngredientsMeals(meallist) {
     response = await response.json();
     $("#loading").fadeOut(100, function () {
         $(".lds-ripple").fadeIn(150, function () {
-            $("body").css({ overflow: "hidden" });
+            $("body").css({ overflow: "auto" });
 
         })
     });
