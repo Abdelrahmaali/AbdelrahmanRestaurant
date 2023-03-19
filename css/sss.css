@@ -101,6 +101,23 @@ body{
     z-index: 99;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+ #content{
+  padding-left: 5rem;
+ }
+
+ #searchPage{
+  padding-left: 5rem;
+ }
+
+
+ #validation{
+  padding-left: 5rem;
+ }
+}
+
 /* section 1 ends  */
 
 
