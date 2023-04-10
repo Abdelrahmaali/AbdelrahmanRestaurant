@@ -1,6 +1,6 @@
 # AbdelrahmanRestaurant
 
-yummy restaurant project build using javascript ,jquery library ,ajax
+yummy restaurant
 
 
 
